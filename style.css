@@ -1,0 +1,132 @@
+/* --Template-- */
+/* layout */
+/* sizing */
+/* social distancing*/
+/* coloring */
+/* effect */
+/* animations */
+
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body */
+body {
+  /* layout */
+  height: 100vh;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* sizing */
+  /* social distancing*/
+  /* coloring */
+  background-color: lightskyblue;
+  /* effect */
+  /* animations */
+}
+
+/* containers */
+.header-card {
+  /* layout */
+  /* sizing */
+  /* social distancing*/
+  padding: 2rem;
+  /* coloring */
+  border: 10px solid blue;
+  /* effect */
+  border-radius: 1rem 1rem 0 0;
+  /* animations */
+}
+
+.form_card {
+  /* layout */
+  /* sizing */
+  /* social distancing*/
+  padding: 2rem;
+  /* coloring */
+  border: 10px solid purple;
+  /* effect */
+  border-radius: 0 0 1rem 1rem;
+
+  /* animations */
+}
+
+form {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  /* sizing */
+  /* social distancing*/
+  /* coloring */
+  /* effect */
+  /* animations */
+}
+form:valid {
+  /* layout */
+  /* sizing */
+  /* social distancing*/
+  /* coloring */
+  border: 5px dashed green;
+  /* effect */
+  /* animations */
+}
+form:invalid {
+  /* layout */
+  /* sizing */
+  /* social distancing*/
+  /* coloring */
+  border: 5px dashed red;
+  /* effect */
+  /* animations */
+}
+
+/* targets */
+input {
+  /* layout */
+  width: 100%;
+  /* sizing */
+  font-size: large;
+  /* social distancing*/
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  /* coloring */
+  /* effect */
+  border: 5px solid black;
+  border-radius: 2rem;
+  cursor: text;
+
+  /* animations */
+}
+input:focus,
+input:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+button {
+  /* layout */
+  width: 35%;
+  align-self: flex-end;
+  /* sizing */
+  /* social distancing*/
+  padding: 0.5rem;
+  /* coloring */
+  border: none;
+  background-color: #fff;
+  /* effect */
+  border-radius: 1rem;
+  /* animations */
+  transition: 500ms;
+}
+
+button:hover {
+  background-color: purple;
+}
